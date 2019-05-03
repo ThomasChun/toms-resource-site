@@ -6,10 +6,12 @@ import LeftNav from './left-nav';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <LeftNav />
-      <Main />
+      <main>
+        <LeftNav />
+        <Main />
+      </main>
       <Footer />
     </div>
   );

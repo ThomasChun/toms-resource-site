@@ -1,3 +1,45 @@
-body {
-  background:lightblue;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.app {
+  max-width: 1300px;
+  margin: auto;
+}
+
+header {
+  padding: 40px;
+  background: lightgreen;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background:white;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 700px;
+
+  .app-left-nav {
+    background: lightpink;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .app-main {
+    background: lightblue;
+    flex: 4;
+    padding: 20px;
+  }
+}
+
+.app-footer {
+  padding: 20px;
+  background: lightsalmon;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
