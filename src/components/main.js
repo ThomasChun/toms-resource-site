@@ -4,7 +4,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <div className="app-main">
-        TOMS RESOURCE SITE - Main component
+        TOMS RESOURCE SITE - Main Component
       </div>
     )
   }
