@@ -1,7 +1,10 @@
+$main-component-spacing: 25px 0px;
+
 * {
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
+  background: rgb(241, 241, 241);
 }
 
 .app {
@@ -23,20 +26,92 @@ main {
   flex-wrap: wrap;
   min-height: 700px;
 
-  .app-left-nav {
+  .left-nav {
     background: lightpink;
     flex: 1;
     padding: 20px;
+
+    ul {
+      list-style-type: none;
+    }
   }
 
-  .app-main {
-    background: lightblue;
+  .main {
+    background: rgb(115, 197, 159);
     flex: 4;
     padding: 20px;
+
+    %main-component-shared {
+      margin: 10px 0px;
+      border: 1px solid white;
+      border-radius: 5px;
+
+      h2 {
+        background: white;
+        padding: 10px 10px 10px 35px;
+      }
+
+      .h2-border {
+        border-bottom: 1px solid gray;
+      }
+
+      h2:hover {
+        color: rgb(0, 185, 0);
+        cursor: pointer;
+      }
+
+      .content-container {
+        background: white;
+        padding: 20px;
+        ul {
+          list-style-type: none;
+        }
+        li {
+          font-weight: bold;
+          font-size: 20px;
+          padding: 15px 0px;
+        }
+        h3{
+          font-size: 16px;
+        }
+      }
+
+      .expand {
+        display: block;
+      }
+
+      .collapse {
+        display: none;
+      }
+    }
+
+    .articles-blogs {
+      @extend %main-component-shared;
+    }
+
+    .css {
+      @extend %main-component-shared;
+    }
+
+    .html {
+      @extend %main-component-shared;
+    }
+
+    .javascript {
+      @extend %main-component-shared;
+    }
+
+    .social-media {
+      @extend %main-component-shared;
+    }
+
+    .websites {
+      @extend %main-component-shared;
+    }
   }
 }
 
-.app-footer {
+.footer {
   padding: 20px;
   background: lightsalmon;
   flex: 1;

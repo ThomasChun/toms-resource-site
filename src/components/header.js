@@ -3,7 +3,7 @@ import React from 'react';
 export default class Header extends React.Component {
   render() {
     return (
-      <header className="app-header">
+      <header className="header">
         TOMS RESOURCE SITE - Header Component
       </header>
     )
