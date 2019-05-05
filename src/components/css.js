@@ -16,7 +16,7 @@ export default class Css extends React.Component {
   render() {
     return (
       <div className="css">
-        <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`} className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`} onClick={this.toggleClick}>CSS</h2>
+        <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`} onClick={this.toggleClick}>CSS</h2>
         <div className={`content-container ${this.state.visibility ? 'expand' : 'collapse'}`}>
           <ul>
             <li>Web Resources</li>
