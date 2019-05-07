@@ -14,9 +14,15 @@ export default class ArticlesBlogs extends React.Component {
   }
 
   render() {
+    let expanded = '+';
+    expanded = this.state.visibility ? '- collapse' : '+ expand';
+
     return (
       <div className="articles-blogs">
-        <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`} onClick={this.toggleClick}>Articles & Blogs</h2>
+        <div className="h2-wrapper" onClick={this.toggleClick}>
+        <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`}>Articles & Blogs</h2>
+        <div className={`expand-text ${this.state.visibility ? 'h2-border' : 'h2-no-border'}`}>{expanded}</div>
+        </div>
         <div className={`content-container ${this.state.visibility ? 'expand' : 'collapse'}`}>
           <ul>
             <li>Web Resources</li>

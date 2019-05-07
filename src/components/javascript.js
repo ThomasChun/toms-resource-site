@@ -10,13 +10,19 @@ export default class Javascript extends React.Component {
   }
 
   toggleClick() {
-    this.setState({visibility: !this.state.visibility})
+    this.setState({ visibility: !this.state.visibility })
   }
 
   render() {
+    let expanded = '+';
+    expanded = this.state.visibility ? '- collapse' : '+ expand';
+
     return (
       <div className="javascript">
-        <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`} onClick={this.toggleClick}>JavaScript</h2>
+        <div className="h2-wrapper" onClick={this.toggleClick}>
+          <h2 className={`${this.state.visibility ? 'h2-border' : 'h2-no-border'}`}>JavaScript</h2>
+          <div className={`expand-text ${this.state.visibility ? 'h2-border' : 'h2-no-border'}`}>{expanded}</div>
+        </div>
         <div className={`content-container ${this.state.visibility ? 'expand' : 'collapse'}`}>
           <ul>
             <li>Web Resources</li>
@@ -24,11 +30,6 @@ export default class Javascript extends React.Component {
             <li>Videos</li>
             <li>Courses</li>
             <li>Books</li>
-              <ul>
-                <li>
-                  <h3>Eloquent Javascript: A Modern Introduction to Programming by Marijn Haverbeke</h3>
-                </li>
-              </ul>
             <li>Articles & Blogs</li>
           </ul>
         </div>

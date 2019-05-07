@@ -5,7 +5,7 @@ export default class LeftNav extends React.Component {
     return (
       <div className="left-nav">
         <h2>Resources</h2>
-        <ul>
+        <ul className="categories">
           <li>HTML</li>
           <li>CSS</li>
             <ul>
