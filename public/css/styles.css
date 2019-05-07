@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
-  background: #f1f1f1;
+  background: #666666;
 }
 
 .app {
@@ -12,61 +12,69 @@
 
 header {
   padding: 40px;
-  background: lightgreen;
+  background: #222222;
   flex: 1;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 main {
-  background: white;
   display: flex;
   flex-wrap: wrap;
   min-height: 700px;
+  background: #2f2f2f;
 }
 main .left-nav {
-  background: lightpink;
+  color: white;
+  background: #2f2f2f;
   flex: 1;
   padding: 20px;
 }
-main .left-nav ul {
+main .left-nav ul, main .left-nav li, main .left-nav h2 {
   list-style-type: none;
+  background: #2f2f2f;
 }
 main .main {
-  background: #73c59f;
+  background: #424242;
   flex: 4;
   padding: 20px;
 }
 main .main .websites, main .main .social-media, main .main .javascript, main .main .html, main .main .css, main .main .articles-blogs {
   margin: 10px 0px;
-  border: 1px solid white;
+  border: 1px solid #303133;
   border-radius: 5px;
 }
 main .main .websites h2, main .main .social-media h2, main .main .javascript h2, main .main .html h2, main .main .css h2, main .main .articles-blogs h2 {
-  background: white;
+  color: white;
+  background: #303133;
   padding: 10px 10px 10px 35px;
 }
 main .main .websites .h2-border, main .main .social-media .h2-border, main .main .javascript .h2-border, main .main .html .h2-border, main .main .css .h2-border, main .main .articles-blogs .h2-border {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #666666;
 }
 main .main .websites h2:hover, main .main .social-media h2:hover, main .main .javascript h2:hover, main .main .html h2:hover, main .main .css h2:hover, main .main .articles-blogs h2:hover {
-  color: #00b900;
+  color: lightgray;
   cursor: pointer;
 }
 main .main .websites .content-container, main .main .social-media .content-container, main .main .javascript .content-container, main .main .html .content-container, main .main .css .content-container, main .main .articles-blogs .content-container {
-  background: white;
+  background: #2f2f2f;
+  color: white;
   padding: 20px;
 }
 main .main .websites .content-container ul, main .main .social-media .content-container ul, main .main .javascript .content-container ul, main .main .html .content-container ul, main .main .css .content-container ul, main .main .articles-blogs .content-container ul {
   list-style-type: none;
+  background: #2f2f2f;
 }
 main .main .websites .content-container li, main .main .social-media .content-container li, main .main .javascript .content-container li, main .main .html .content-container li, main .main .css .content-container li, main .main .articles-blogs .content-container li {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 0px;
+  background: #2f2f2f;
 }
 main .main .websites .content-container h3, main .main .social-media .content-container h3, main .main .javascript .content-container h3, main .main .html .content-container h3, main .main .css .content-container h3, main .main .articles-blogs .content-container h3 {
-  font-size: 16px;
+  font-size: 18px;
+  background: #2f2f2f;
 }
 main .main .websites .expand, main .main .social-media .expand, main .main .javascript .expand, main .main .html .expand, main .main .css .expand, main .main .articles-blogs .expand {
   display: block;
@@ -76,10 +84,11 @@ main .main .websites .collapse, main .main .social-media .collapse, main .main .
 }
 .footer {
   padding: 20px;
-  background: lightsalmon;
+  background: #222222;
   flex: 1;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

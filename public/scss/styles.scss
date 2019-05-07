@@ -1,10 +1,16 @@
 $main-component-spacing: 25px 0px;
+$background-color-1: #666666; // #4d4d4d
+$background-color-2: #424242; // #424242
+$background-color-3: #303133; // #303133
+$background-color-4: #222222; // #222222
+$background-color-5: rgb(47, 47, 47); // #3C3C3C
 
 * {
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
-  background: rgb(241, 241, 241);
+  background: $background-color-1;
+  
 }
 
 .app {
@@ -14,65 +20,73 @@ $main-component-spacing: 25px 0px;
 
 header {
   padding: 40px;
-  background: lightgreen;
+  background: $background-color-4;
   flex: 1;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 main {
-  background:white;
   display: flex;
   flex-wrap: wrap;
   min-height: 700px;
+  background: $background-color-5;
 
   .left-nav {
-    background: lightpink;
+    color: white;
+    background: $background-color-5;
     flex: 1;
     padding: 20px;
 
-    ul {
+    ul, li, h2 {
       list-style-type: none;
+      background: $background-color-5;
     }
   }
 
   .main {
-    background: rgb(115, 197, 159);
+    background: $background-color-2;
     flex: 4;
     padding: 20px;
 
     %main-component-shared {
       margin: 10px 0px;
-      border: 1px solid white;
+      border: 1px solid $background-color-3;
       border-radius: 5px;
 
       h2 {
-        background: white;
+        color: white;
+        background: $background-color-3;
         padding: 10px 10px 10px 35px;
       }
 
       .h2-border {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid $background-color-1;
       }
 
       h2:hover {
-        color: rgb(0, 185, 0);
+        color: lightgray;
         cursor: pointer;
       }
 
       .content-container {
-        background: white;
+        background: $background-color-5;
+        color: white;
         padding: 20px;
         ul {
           list-style-type: none;
+          background: $background-color-5;
         }
         li {
           font-weight: bold;
-          font-size: 20px;
+          font-size: 18px;
           padding: 15px 0px;
+          background: $background-color-5;
         }
         h3{
-          font-size: 16px;
+          font-size: 18px;
+          background: $background-color-5;
         }
       }
 
@@ -113,8 +127,9 @@ main {
 
 .footer {
   padding: 20px;
-  background: lightsalmon;
+  background: $background-color-4;
   flex: 1;
   display: flex;
   justify-content: center;
+  color: white;
 }
