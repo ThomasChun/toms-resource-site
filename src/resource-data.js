@@ -13,6 +13,11 @@ export default {
               link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
               description: 'Brief background and in depth breakdown of all things HTML5 by MDN.',
             },
+            {
+              title: 'HTML5 Rocks - Project by Google',
+              link: 'https://www.html5rocks.com/en/resources.html',
+              description: 'Great resource covering all things HTML5. This resource provides references and suggested books on HTML5.',
+            },
           ]
         },
       ]
@@ -164,5 +169,22 @@ export default {
       ],
     },
 
-  ]
+    // // -- SOCIAL MEDIA -- RESOURCE INPUT HERE
+    {
+      resourceCategory: 'Career & Jobs',
+      resourceArray: [
+        {
+          title: 'Job Resources',
+          resources: [
+            {
+              title: 'Jobs 1',
+              link: '#',
+              description: 'Jobs 1 description',
+            },
+          ]
+        },
+      ],
+    },
+
+  ] // END
 };

@@ -12,6 +12,7 @@ export default class Main extends React.Component {
         <ContentCategory value='Regular Expressions: RegEx' />
         <ContentCategory value='Articles & Blogs' />
         <ContentCategory value='Social Media' />
+        <ContentCategory value='Career & Jobs' />
       </div>
     )
   }

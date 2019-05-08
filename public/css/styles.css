@@ -22,7 +22,7 @@ header {
   font-size: 22px;
 }
 header h1 {
-  padding: 40px 0px 20px 0px;
+  padding: 30px 0px 20px 0px;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -33,9 +33,10 @@ header p {
   margin: auto;
   font-size: 13px;
   color: #dfdfdf;
-  max-width: 700px;
-  padding-bottom: 40px;
+  max-width: 600px;
+  padding-bottom: 30px;
   line-height: 1.4;
+  text-align: center;
 }
 
 main {

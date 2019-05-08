@@ -5,9 +5,8 @@ export default class Header extends React.Component {
     return (
       <header className="header">
         <h1>Full Stack Developer Resource Guide</h1>
-        <p>Along the road towards becoming a Full Stack Web Developer, I have come across a multitude of great resources.
-        I have decided to dedicate a website to compile a collection of resources that can be used as reference for fellow coders.
-        I hope you find the resources below helpful as you pursue your own coding journey!</p>
+        <p>Along the road towards becoming a Full Stack Web Developer, I've come across a multitude of great resources.
+          I hope you find the resources below helpful as you pursue your own coding journey!</p>
       </header>
     )
   }
