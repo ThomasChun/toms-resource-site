@@ -9,7 +9,7 @@ export default class Main extends React.Component {
         <ContentCategory value='JavaScript' />
         <ContentCategory value='HTML' />
         <ContentCategory value='CSS' />
-        <ContentCategory value='Regular Expressions: Regex' />
+        <ContentCategory value='Regular Expressions: RegEx' />
         <ContentCategory value='Articles & Blogs' />
         <ContentCategory value='Social Media' />
       </div>

@@ -6,12 +6,12 @@ export default {
       resourceCategory: 'HTML',
       resourceArray: [
         {
-          title: 'HTML1',
+          title: 'References & Guides',
           resources: [
             {
-              title: 'HTML1 title',
-              link: '#',
-              description: 'HTML1 description',
+              title: 'HTML5 - Developer guides | MDN',
+              link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
+              description: 'Brief background and in depth breakdown of all things HTML5 by MDN.',
             },
           ]
         },
@@ -103,12 +103,12 @@ export default {
       resourceCategory: 'Articles & Blogs',
       resourceArray: [
         {
-          title: 'articlesBlogs1',
+          title: 'Blogs',
           resources: [
             {
-              title: 'articlesBlogs1 title',
-              link: '#',
-              description: 'articlesBlogs1 description',
+              title: 'freeCodeCamp Medium Blog Page',
+              link: 'https://medium.freecodecamp.org/',
+              description: "A lot of great blog posts submitted by various users, most under 10 minute reads. When I have some time to do some reading, I look for posts that cover a skill I'm currently learning.",
             },
           ]
         },
@@ -134,11 +134,26 @@ export default {
 
     // // -- REGULAR EXPRESSIONS: REGEX -- RESOURCE INPUT HERE
     {
-      resourceCategory: 'Regular Expressions: Regex',
+      resourceCategory: 'Regular Expressions: RegEx',
       resourceArray: [
+        {
+          title: 'References & Guides',
+          resources: [
+            {
+              title: 'Regular Expressions - JavaScript | MDN',
+              link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions',
+              description: 'Reference provided by Mozilla MDN that covers how to create, write, and work with regular expressions. A great place to start!',
+            },
+          ]
+        },
         {
           title: 'RegEx Web Tools',
           resources: [
+            {
+              title: 'RegExr: Learn, Build, & Test RegEx',
+              link: 'https://regexr.com/',
+              description: 'RegEx tool that allows you to test your RegEx against provided text. Also has helpful RegEx References and Cheatsheet.',
+            },
             {
               title: 'Debuggex',
               link: 'https://debuggex.com/',
