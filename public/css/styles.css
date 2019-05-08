@@ -13,6 +13,10 @@ body {
   margin: auto;
 }
 
+.title {
+  color: white;
+}
+
 header {
   padding: 40px;
   background: #222222;
@@ -33,7 +37,7 @@ main {
 main .left-nav {
   color: white;
   flex: 1;
-  padding: 75px;
+  padding: 30px 75px;
 }
 main .left-nav h2 {
   display: flex;
@@ -73,7 +77,7 @@ main .main .websites h2, main .main .social-media h2, main .main .javascript h2,
 }
 main .main .websites .expand-text, main .main .social-media .expand-text, main .main .javascript .expand-text, main .main .html .expand-text, main .main .css .expand-text, main .main .articles-blogs .expand-text {
   flex: 1;
-  color: white;
+  color: #dfdfdf;
   background: #303133;
   padding: 10px 10px 10px 35px;
   display: flex;
@@ -84,24 +88,52 @@ main .main .websites .h2-border, main .main .social-media .h2-border, main .main
   border-bottom: 1px solid #666666;
 }
 main .main .websites h2:hover, main .main .social-media h2:hover, main .main .javascript h2:hover, main .main .html h2:hover, main .main .css h2:hover, main .main .articles-blogs h2:hover {
-  color: lightgray;
+  color: #56ff56;
   cursor: pointer;
 }
 main .main .websites .content-container, main .main .social-media .content-container, main .main .javascript .content-container, main .main .html .content-container, main .main .css .content-container, main .main .articles-blogs .content-container {
   background: #2f2f2f;
-  color: white;
-  padding: 20px;
+  color: #dfdfdf;
+  padding: 10px 30px;
 }
 main .main .websites .content-container ul, main .main .social-media .content-container ul, main .main .javascript .content-container ul, main .main .html .content-container ul, main .main .css .content-container ul, main .main .articles-blogs .content-container ul {
   list-style-type: none;
 }
 main .main .websites .content-container li, main .main .social-media .content-container li, main .main .javascript .content-container li, main .main .html .content-container li, main .main .css .content-container li, main .main .articles-blogs .content-container li {
-  font-weight: bold;
-  font-size: 18px;
-  padding: 15px 0px;
+  font-size: 14px;
+  padding: 5px 0px;
 }
 main .main .websites .content-container h3, main .main .social-media .content-container h3, main .main .javascript .content-container h3, main .main .html .content-container h3, main .main .css .content-container h3, main .main .articles-blogs .content-container h3 {
-  font-size: 18px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: white;
+}
+main .main .websites .content-container a, main .main .social-media .content-container a, main .main .javascript .content-container a, main .main .html .content-container a, main .main .css .content-container a, main .main .articles-blogs .content-container a {
+  text-decoration: none;
+  color: #b0ffb0;
+}
+main .main .websites .content-container a:hover, main .main .social-media .content-container a:hover, main .main .javascript .content-container a:hover, main .main .html .content-container a:hover, main .main .css .content-container a:hover, main .main .articles-blogs .content-container a:hover {
+  color: #56ff56;
+}
+main .main .websites .content-container .resource-details, main .main .social-media .content-container .resource-details, main .main .javascript .content-container .resource-details, main .main .html .content-container .resource-details, main .main .css .content-container .resource-details, main .main .articles-blogs .content-container .resource-details {
+  padding: 0px;
+}
+main .main .websites .content-container .resource-type, main .main .social-media .content-container .resource-type, main .main .javascript .content-container .resource-type, main .main .html .content-container .resource-type, main .main .css .content-container .resource-type, main .main .articles-blogs .content-container .resource-type {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  line-height: 1.4;
+}
+main .main .websites .content-container .resource-type ul, main .main .social-media .content-container .resource-type ul, main .main .javascript .content-container .resource-type ul, main .main .html .content-container .resource-type ul, main .main .css .content-container .resource-type ul, main .main .articles-blogs .content-container .resource-type ul {
+  padding-left: 15px;
+}
+main .main .websites .content-container .resource-type div, main .main .social-media .content-container .resource-type div, main .main .javascript .content-container .resource-type div, main .main .html .content-container .resource-type div, main .main .css .content-container .resource-type div, main .main .articles-blogs .content-container .resource-type div {
+  font-size: 13px;
+  font-weight: normal;
+}
+main .main .websites .content-container .resource-type h4, main .main .social-media .content-container .resource-type h4, main .main .javascript .content-container .resource-type h4, main .main .html .content-container .resource-type h4, main .main .css .content-container .resource-type h4, main .main .articles-blogs .content-container .resource-type h4 {
+  font-size: 14px;
+  padding-bottom: 5px;
 }
 main .main .websites .expand, main .main .social-media .expand, main .main .javascript .expand, main .main .html .expand, main .main .css .expand, main .main .articles-blogs .expand {
   display: block;
@@ -115,7 +147,7 @@ main .main .websites .collapse, main .main .social-media .collapse, main .main .
   flex: 1;
   display: flex;
   justify-content: center;
-  color: white;
+  color: #dfdfdf;
   font-size: 14px;
 }
 
