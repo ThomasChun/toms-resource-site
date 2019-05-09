@@ -110,6 +110,21 @@ export default {
             },
           ]
         },
+        {
+          title: 'Color Contrast Checkers',
+          resources: [
+            {
+              title: 'Contrast Ratio: Easily calculate color contrast ratios.',
+              link: 'https://contrast-ratio.com/',
+              description: 'Enter a background and text color and see the contrast rating score which indicates how readable the text will be for users.',
+            },
+            {
+              title: 'WebAIM: Color Contrast Checker',
+              link: 'https://webaim.org/resources/contrastchecker/',
+              description: 'Use this tool when selecting colors for your next site. Input foreground and background colors and see if the colors you selected pass the color contrast checkers test!',
+            },
+          ]
+        },
       ],
     },
 
