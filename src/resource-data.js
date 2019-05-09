@@ -84,9 +84,9 @@ export default {
           title: 'Learn to Code',
           resources: [
             {
-            title: 'freeCodeCamp: Learn to Code and Help Nonprofits',
-            link: 'https://www.freecodecamp.org/',
-            description: 'A great website that I used to prepare for my bootcamp and continue to use today. Best of all, the curriculum is totally free! freeCodeCamp offers 6 certifications for users to complete: Responsive Web Design (300 hours), Javascript Algorithms And Data Structures (300 hours), Front End Libraries (300 hours), Data Visualization (300 hours), Apis And Microservices (300 hours), Information Security And Quality Assurance (300 hours). If you are looking for a free resource to get started on your programming journey, I recommoned freeCodeCamp to get started!',
+              title: 'freeCodeCamp: Learn to Code and Help Nonprofits',
+              link: 'https://www.freecodecamp.org/',
+              description: 'A great website that I used to prepare for my bootcamp and continue to use today. Best of all, the curriculum is totally free! freeCodeCamp offers 6 certifications for users to complete: Responsive Web Design (300 hours), Javascript Algorithms And Data Structures (300 hours), Front End Libraries (300 hours), Data Visualization (300 hours), Apis And Microservices (300 hours), Information Security And Quality Assurance (300 hours). If you are looking for a free resource to get started on your programming journey, I recommoned freeCodeCamp to get started!',
             },
           ]
         },
@@ -97,6 +97,16 @@ export default {
               title: 'Codewars: Train with Programming Challenges/Kata',
               link: 'https://www.codewars.com',
               description: 'A great website that provides coding challenges ranked by difficulty also called "Kyu" ranging from 1 (most difficult) to 8 (simplest).',
+            },
+          ]
+        },
+        {
+          title: 'Fav Icon Generators',
+          resources: [
+            {
+              title: 'Favicon.io: The best Favicon Generator (completely free)',
+              link: 'https://favicon.io/',
+              description: 'The only favicon generator you need for your next project. Quickly and easily generate your favicon.ico file from text, image, or choose from hundreds of emojis.',
             },
           ]
         },
